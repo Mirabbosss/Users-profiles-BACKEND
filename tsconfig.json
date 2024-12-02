@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",                         // ES6 yoki undan yuqori versiyaga kompilyatsiya qiling
+      "module": "commonjs",                    // CommonJS modullaridan foydalaning
+      "outDir": "./dist",                      // Kompilyatsiya qilingan fayllarni joylashtirish uchun papka
+      "rootDir": "./src",                      // Manba fayllari joylashgan papka
+      "strict": true,                          // Strict rejimni yoqish
+      "esModuleInterop": true,                 // CommonJS va ESM o'rtasida muvofiqlik
+      "skipLibCheck": true,                    // Kutilmagan kutubxona xatolarini o'tkazib yuborish
+      "forceConsistentCasingInFileNames": true // Fayl nomlarining bir xil bo'lishini ta'minlash
+    },
+    "include": ["src"],                        // TypeScript fayllarini qamrab olish
+    "exclude": ["node_modules"]               // Node modullarini chiqarib tashlash
+  }
+  
